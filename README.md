@@ -26,7 +26,13 @@
    
 4. Menjalankan API
    ```bash
-   npm start
+      npm start
+   ```
+
+5. Jalankan migrate dan seeder sequelize
+   ```bash
+      npx sequelize-cli db:migrate
+      npx sequelize-cli db:seed:all
    ```
    
 6. Route API
@@ -106,7 +112,7 @@
       }
    ```
      
-8. Troubleshooting
+7. Troubleshooting
      Jika Anda mengalami masalah saat menginstal dependensi, coba jalankan:
    ```bash
     npm cache clean --force
@@ -115,3 +121,7 @@
    ```
 
    Pastikan juga file .env dibuat dan pastikan memasukan nama database dengan benar
+
+
+## Algoritma Test Case
+Berada di folder TEST_ALGORITMA
