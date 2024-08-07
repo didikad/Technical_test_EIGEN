@@ -3,7 +3,7 @@
 ## Backend Test Case
 1. Clone Repositori
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/didikad/Technical_test_EIGEN.git repository
    cd repository
    ```
   
